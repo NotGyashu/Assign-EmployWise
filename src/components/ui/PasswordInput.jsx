@@ -1,4 +1,3 @@
-// src/components/ui/PasswordInput.jsx
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import { EyeIcon, EyeSlashIcon } from '@heroicons/react/24/solid';

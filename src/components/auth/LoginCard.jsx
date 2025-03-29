@@ -1,4 +1,3 @@
-// src/components/auth/LoginCard.jsx
 import React from 'react';
 
 /**
