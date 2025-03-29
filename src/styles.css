@@ -1,0 +1,48 @@
+@import 'tailwindcss';
+
+.gradient {
+    background: rgb(171,140,242);
+background: linear-gradient(90deg, rgba(171,140,242,0.8596230728619573) 0%, rgba(103,0,255,0.6635446414894083) 100%);
+}
+@apply gradient;
+
+/* src/styles/toastify.css */
+.Toastify__toast {
+    background-color: #FFFBEB !important; /* Amber-50 */
+    color: #92400E !important;           /* Amber-800 */
+    border: 1px solid #F59E0B !important; /* Amber-500 */
+    border-radius: 8px !important;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06) !important;
+  }
+  
+  .Toastify__toast--success {
+    border-color: #10B981 !important; /* Emerald-500 */
+  }
+  
+  .Toastify__toast--error {
+    border-color: #EF4444 !important; /* Red-500 */
+  }
+  
+  .Toastify__toast--warning {
+    border-color: #F59E0B !important; /* Amber-500 */
+  }
+  
+  .Toastify__toast--info {
+    border-color: #3B82F6 !important; /* Blue-500 */
+  }
+  
+  .Toastify__progress-bar {
+    background: #F59E0B !important; /* Amber-500 */
+  }
+  
+  .Toastify__progress-bar--success {
+    background: #10B981 !important; /* Emerald-500 */
+  }
+  
+  .Toastify__progress-bar--error {
+    background: #EF4444 !important; /* Red-500 */
+  }
+  
+  .Toastify__progress-bar--info {
+    background: #3B82F6 !important; /* Blue-500 */
+  }
